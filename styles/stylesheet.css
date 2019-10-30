@@ -1,4 +1,4 @@
-body {
+body.home, body.about-me  {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: black;
   background-color: rgb(79, 107, 117);
@@ -8,57 +8,58 @@ body {
   display:flex;
   flex-direction:column;
 }
-header {
+header.home, header.about-me  {
   color: black;
   padding:10px;
   background-color: rgb(50, 119, 145);
 }
-header h1 {
+header h1.home, header h1.about-me {
   text-align: center;
 }
-nav ul li {
+nav ul li.home, nav ul li.about-me {
   list-style: none;
   float: right;
   padding:15px;
 }
-nav ul li a {
+nav ul li a.home, nav ul li a.about-me  {
   text-decoration: none;
+  float: none;
   color: black;
 }
-nav ul li a:hover {
+nav ul li a:hover.home, nav ul li a:hover.about-me {
   color: white;
 }
-section article {
+section article.home {
   text-align: justify;
   padding: 3px;
   margin: 3px;
 }
-section {
+section.home {
   margin: 20px 20px 5px 40px;
 }
-section article a {
+section article a.home {
   text-decoration: none;
   color: black;
 }
-section article a:hover {
+section article a:hover.home {
   color: white;
 }
-section div img {
+section div img.home {
 
   float: left;
   padding: 5px;
   margin-right: 10px;
   margin-bottom: 5px;
 }
-section div p {
-  width: 80%;
+section div p.home {
+  width: 90%;
   height: 100%;
   padding: 3px;
   margin:3px;
   letter-spacing: 0.08em;
-  line-height: 20pt;
+  line-height: 19pt;
 }
-section p {
+section p.home {
 text-align: justify;
 padding: 3px;
 margin:3px;
@@ -66,17 +67,29 @@ letter-spacing: 0.08em;
 width: 98%;
 line-height: 20pt;
 }
-
-footer {
+footer.home, footer.about-me {
   text-align: center;
   color:black;
   background-color: rgb(50, 119, 145);
   padding: 15px;
   margin-top: 10px;
 }
-footer a {
+footer a.home, footer a.about-me  {
 color: black;
 }
-footer a:hover {
+footer a:hover.home, footer a:hover.about-me {
 color: white;
+}
+
+section a.about-me {
+  text-decoration: none;
+  color: black;
+}
+section a:hover.about-me {
+  color: white;
+}
+section.about-me {
+  text-align: justify;
+  margin: 5px 20px 2px 40px;
+  letter-spacing: 0.06em;
 }
