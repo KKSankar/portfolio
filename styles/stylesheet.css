@@ -12,6 +12,7 @@ header.home, header.about-me  {
   color: black;
   padding:10px;
   background-color: rgb(50, 119, 145);
+  border: medium dashed black;
 }
 header h1.home, header h1.about-me {
   text-align: center;
@@ -73,6 +74,8 @@ footer.home, footer.about-me {
   background-color: rgb(50, 119, 145);
   padding: 15px;
   margin-top: 10px;
+  color: black;
+  border: medium dashed black;
 }
 footer a.home, footer a.about-me  {
 color: black;
