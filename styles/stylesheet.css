@@ -32,6 +32,17 @@ nav ul li a.home, nav ul li a.about-me  {
 nav ul li a:hover.home, nav ul li a:hover.about-me {
   color: white;
 }
+.flex-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin: 1px 1px 2px 22px;
+  padding: 5px 1px 3px 10px;
+}
+#books {
+  margin: 1px 1px 2px 22px;
+  padding: 2px 2px 13px 15px;
+}
 section article.home {
   text-align: justify;
   padding: 3px;
@@ -81,6 +92,8 @@ footer.home, footer.about-me {
 footer a.home, footer a.about-me  {
 color: black;
 text-decoration: none;
+font-family: 'Sunshiney', cursive;
+font-size: 18pt;
 }
 footer a:hover.home, footer a:hover.about-me {
 color: white;
@@ -89,6 +102,7 @@ text-decoration: none;
 section a.about-me {
   text-decoration: none;
   color: black;
+  font-family: 'Lato', sans-serif;
 }
 section a:hover.about-me {
   color: white;
@@ -98,8 +112,8 @@ section.about-me {
   margin: 5px 20px 2px 40px;
   letter-spacing: 0.08em;
   line-height: 20pt;
-
 }
+
 .fa-phone-square-alt, .fa-sms, .fa-envelope-open-text {
   font-size: 25px;
 }
