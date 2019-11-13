@@ -82,6 +82,7 @@ color: black;
 }
 footer a:hover.home, footer a:hover.about-me {
 color: white;
+text-decoration: none;
 }
 
 section a.about-me {
@@ -95,4 +96,7 @@ section.about-me {
   text-align: justify;
   margin: 5px 20px 2px 40px;
   letter-spacing: 0.06em;
+}
+.fa-phone-square-alt, .fa-sms, .fa-envelope-open-text {
+  font-size: 25px;
 }
