@@ -18,6 +18,19 @@ body.home, body.about-me  {
 .fa-phone-square-alt, .fa-sms, .fa-envelope-open-text {
   font-size: 25px;
 }
+.flex-item img {
+   border-style: none;
+   border-width: 1px;
+   display: block;
+   width: 150px;
+   height: 155px;
+   transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.flex-item img:hover {
+  width: 170px;
+  height: 170px;
+  transform: rotate(360deg);
+}
 header.home, header.about-me  {
   color: black;
   padding:10px;
