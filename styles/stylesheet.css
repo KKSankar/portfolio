@@ -31,6 +31,15 @@ body.home, body.about-me  {
   height: 170px;
   transform: rotate(360deg);
 }
+section.about-me #image1 {
+  transition: all 1.5s ease-in;
+}
+section.about-me #image2 {
+  transition: all 1.5s ease-in-out;
+}
+section.about-me article:hover {
+  transform: translateX(500px);
+}
 article.home img {
    border-style: none;
    border-width: 1px;
